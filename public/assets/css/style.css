@@ -23,6 +23,15 @@ body {
     padding-left:750px;
     
   }
+
+  #feeling {
+
+    background-color: purple;
+    border-radius: 50%;
+    height:75px;
+    margin:20px;
+    width:75px;
+  }
   #heading {
   
     font-family: 'Oswald', sans-serif;
