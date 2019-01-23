@@ -2,6 +2,7 @@ body {
 
     background-image: url(../images/color.jpg)
   }
+
   #btn {
   
     background: none;
@@ -26,12 +27,14 @@ body {
 
   #feeling {
 
-    background-color: purple;
+    background-color: rgb(85, 33, 85);
     border-radius: 50%;
     height:75px;
     margin:20px;
     width:75px;
   }
+
+
   #heading {
   
     font-family: 'Oswald', sans-serif;
