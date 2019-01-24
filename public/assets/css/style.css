@@ -17,6 +17,12 @@ body {
   
     background-color: none;
   }
+
+  .center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   .fa-github:before {
   
@@ -69,3 +75,5 @@ body {
   
     align-content: center;
   }
+
+  
