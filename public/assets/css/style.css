@@ -29,9 +29,16 @@ body {
 
     background-color: rgb(85, 33, 85);
     border-radius: 50%;
-    height:75px;
+    font-size: 80px;
+    height:130px;
     margin:20px;
-    width:75px;
+    margin-left:40px;
+    width:130px;
+  }
+
+  #footer {
+
+    padding-left:20px;
   }
 
 
