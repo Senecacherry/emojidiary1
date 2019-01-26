@@ -26,6 +26,17 @@ app.post("/api/post", function(req,res){
         res.json(result);
     })
 })
+
+app.get("/api/post/:author", function(req,res) {
+    console.log("author search route hit");
+    db.Post.findAll({
+        where: {
+            author: req.params.author,
+        }
+    }).then(function(dbPost) {
+        res.json(dbPost)
+    });
+})
 //   // POST route for saving a new todo
 //   app.post("/api/todos", function(req, res) {
 //     // create takes an argument of an object describing the item we want to
