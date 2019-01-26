@@ -1,6 +1,7 @@
 body {
 
-    background-image: url(../images/color.jpg)
+    background-image: url(../images/color.jpg);
+    
   }
 
   #btn {
@@ -18,6 +19,12 @@ body {
     background-color: none;
   }
 
+  #btnsubmit {
+
+    color: black;
+    margin:10px;
+  }
+
   .center-block {
     display: block;
     margin-left: auto;
@@ -26,7 +33,7 @@ body {
 
   .diarybody {
 
-    background-image: url(../images/diary.jpg)
+    background: url(../images/diary.jpg) no-repeat fixed center center / cover rgba(0, 0, 0, 0);;
    
   }
   
@@ -55,11 +62,12 @@ body {
 
   .form-group {
 
-    
+    font-size: 24px;
+    padding-left:45px;
     padding-top:50px;
   }
 
-  h1 {
+  #h1 {
 
     font-family: 'Calligraffitti', cursive;
     padding-bottom:25px;
@@ -80,11 +88,16 @@ body {
     text-align: center;
   }
   
-  .jumbotron {
+  /* .jumbotron {
   
     margin: auto;
     margin-bottom: 20px;
     width:80%;
+  } */
+
+  #links {
+
+    text-align: center;
   }
   
   #para1 {

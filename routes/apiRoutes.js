@@ -1,9 +1,9 @@
 // *********************************************************************************
-// // api-routes.js - this file offers a set of routes for displaying and saving data to the db
-// // *********************************************************************************
+// api-routes.js - this file offers a set of routes for displaying and saving data to the db
+// *********************************************************************************
 
-// // Dependencies
-// // =============================================================
+// Dependencies
+// =============================================================
 
 // // Requiring our models
 var db = require("../models");
@@ -40,10 +40,10 @@ app.post("/api/post", function(req,res){
 //     });
 //   });
 
-//   // DELETE route for deleting todos. We can get the id of the todo to be deleted from
-//   // req.params.id
+  // DELETE route for deleting todos. We can get the id of the todo to be deleted from
+  // req.params.id
 //   app.delete("/api/todos/:id", function(req, res) {
-//     // We just have to specify which todo we want to destroy with "where"
+    // We just have to specify which todo we want to destroy with "where"
 //     db.Todo.destroy({
 //       where: {
 //         id: req.params.id
@@ -54,10 +54,10 @@ app.post("/api/post", function(req,res){
 
 //   });
 
-//   // PUT route for updating todos. We can get the updated todo data from req.body
+  // PUT route for updating todos. We can get the updated todo data from req.body
 //   app.put("/api/todos", function(req, res) {
-//     // Update takes in an object describing the properties we want to update, and
-//     // we use where to describe which objects we want to update
+    // Update takes in an object describing the properties we want to update, and
+    // we use where to describe which objects we want to update
 //     db.Todo.update({
 //       text: req.body.text,
 //       complete: req.body.complete
