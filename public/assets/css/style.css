@@ -35,7 +35,9 @@ body {
 
   .diarybody {
 
-    background-image: url(../images/diary.jpg)
+    background-image: url(../images/diary.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
    
   }
   
