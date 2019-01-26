@@ -1,6 +1,9 @@
 body {
 
-    background-image: url(../images/color.jpg)
+    background-image: url(../images/color.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    
   }
 
   #btn {
@@ -16,6 +19,12 @@ body {
   #btn:hover {
   
     background-color: none;
+  }
+
+  #btnsubmit {
+
+    color: black;
+    margin:10px;
   }
 
   .center-block {
@@ -55,7 +64,8 @@ body {
 
   .form-group {
 
-    
+    font-size: 24px;
+    padding-left:45px;
     padding-top:50px;
   }
 
@@ -85,6 +95,11 @@ body {
     margin: auto;
     margin-bottom: 20px;
     width:80%;
+  }
+
+  #links {
+
+    text-align: center;
   }
   
   #para1 {
