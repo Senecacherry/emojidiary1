@@ -7,7 +7,7 @@
 var express = require("express");
 var session = require("express-session");
 // Requiring passport as we've configured it
-var passport = require("./config/passport");
+// var passport = require("./config/passport");
 
 // Sets up the Express App
 // =============================================================
@@ -22,19 +22,20 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // app.use(session({ secret: "keyboard cat", resave: true, saveUninitialized: true }));
-app.use(passport.initialize());
-app.use(passport.session());
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 // Static directory
 app.use(express.static("public"));
 
 // Routes
 // =============================================================
-require("./routes/api-routes.js")(app);
+// require("./routes/apiRoutes.js")(app);
+require("./routes/htmlRoutes.js")(app);
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
-db.sequelize.sync().then(function() {
+db.sequelize.sync({force: true}).then(function() {
   app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
   });
