@@ -23,6 +23,12 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .diarybody {
+
+    background-image: url(../images/diary.jpg)
+   
+  }
   
   .fa-github:before {
   
@@ -45,6 +51,21 @@ body {
   #footer {
 
     padding-left:20px;
+  }
+
+  .form-group {
+
+    
+    padding-top:50px;
+  }
+
+  h1 {
+
+    font-family: 'Calligraffitti', cursive;
+    padding-bottom:25px;
+    padding-top:35px;
+    text-align: center;
+
   }
 
 
