@@ -4,11 +4,13 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "animate.css": "^3.7.0",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mysql": "^2.16.0",
     "mysql2": "^1.6.4",
-    "sequelize": "^4.42.0",
-    "sequelize-cli": "^5.4.0"
+    "sequelize": "^4.42.0"
+
   },
   "devDependencies": {},
   "scripts": {
@@ -19,7 +21,9 @@
     "type": "git",
     "url": "git+https://github.com/Senecacherry/emojidiary1.git"
   },
+
   "keywords": [],
+
   "author": "",
   "license": "ISC",
   "bugs": {
