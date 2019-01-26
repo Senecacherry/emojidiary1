@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-    var feelngs = sequelize.define("feelings", {
+    var feeling = sequelize.define("feeling", {
       text: DataTypes.STRING,
       complete: DataTypes.BOOLEAN
     });
