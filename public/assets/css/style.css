@@ -1,8 +1,6 @@
 body {
 
     background-image: url(../images/color.jpg);
-    background-repeat: no-repeat;
-    background-size:100%;
     
   }
 
@@ -35,9 +33,7 @@ body {
 
   .diarybody {
 
-    background-image: url(../images/diary.jpg);
-    background-repeat: no-repeat;
-    background-size:auto;
+    background: url(../images/diary.jpg) no-repeat fixed center center / cover rgba(0, 0, 0, 0);;
    
   }
   
@@ -71,7 +67,7 @@ body {
     padding-top:50px;
   }
 
-  h1 {
+  #h1 {
 
     font-family: 'Calligraffitti', cursive;
     padding-bottom:25px;
@@ -92,12 +88,12 @@ body {
     text-align: center;
   }
   
-  .jumbotron {
+  /* .jumbotron {
   
     margin: auto;
     margin-bottom: 20px;
     width:80%;
-  }
+  } */
 
   #links {
 
