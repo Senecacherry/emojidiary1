@@ -26,22 +26,18 @@ module.exports = function(sequelize, DataTypes) {
         },
         resultsTwo: {
             type: DataTypes.STRING,
-            allowNull: false,
 
         },
         resultsTwoDes: {
             type: DataTypes.STRING,
-            allowNull: false,
 
         },
         resultsThree: {
             type: DataTypes.STRING,
-            allowNull: false,
 
         },
         resultsThreeDes: {
             type: DataTypes.STRING,
-            allowNull: false,
 
         }
 

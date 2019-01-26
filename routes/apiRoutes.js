@@ -6,11 +6,11 @@
 // // =============================================================
 
 // // Requiring our models
-// var db = require("../models");
-
+var db = require("../models");
+console.log("apiRoutes loaded");
 // // Routes
 // // =============================================================
-// module.exports = function(app) {
+module.exports = function(app) {
 
 //   // GET route for getting all of the todos
 //   app.get("/api/todos", function(req, res) {
@@ -20,7 +20,12 @@
 //       res.json(dbTodo);
 //     });
 //   });
-
+app.post("/api/post", function(req,res){
+    console.log("/api/post")
+    db.Post.create(req.body).then(function(result) {
+        res.json(result);
+    })
+})
 //   // POST route for saving a new todo
 //   app.post("/api/todos", function(req, res) {
 //     // create takes an argument of an object describing the item we want to
@@ -65,4 +70,4 @@
 //     });
 //   });
 
-// };
+};
