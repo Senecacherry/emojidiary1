@@ -1,113 +1,111 @@
 body {
 
-    background-image: url(../images/color.jpg);
-    
-  }
-
-  #btn {
+  background-image: url(../images/color.jpg);
   
-    background: none;
-    border: none;
-    cursor:pointer;
-    padding-bottom:25px;
-    padding-left:160px;
-    
-  }
+}
+
+#btn {
+
+  background: none;
+  border: none;
+  cursor:pointer;
+  padding-bottom:25px;
+  padding-left:160px;
   
-  #btn:hover {
+}
+
+#btn:hover {
+
+  background-color: none;
+}
+
+#btnsubmit {
+
+  color: black;
+  margin:10px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diarybody {
+
+  background: url(../images/diary.jpg) no-repeat fixed center center / cover rgba(0, 0, 0, 0);;
+ 
+}
+
+.fa-github:before {
+
+  padding-bottom: 10px;
+  padding-left:750px;
   
-    background-color: none;
-  }
+}
 
-  #btnsubmit {
+#feeling {
 
-    color: black;
-    margin:10px;
-  }
+  background-color: rgb(85, 33, 85);
+  border-radius: 50%;
+  font-size: 80px;
+  height:130px;
+  margin:20px;
+  margin-left:40px;
+  width:130px;
+}
 
-  .center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+#footer {
 
-  .diarybody {
+  padding-left:20px;
+}
 
-    background: url(../images/diary.jpg) no-repeat fixed center center / cover rgba(0, 0, 0, 0);;
-   
-  }
-  
-  .fa-github:before {
-  
-    padding-bottom: 10px;
-    padding-left:750px;
-    
-  }
+.form-group {
 
-  #feeling {
+  font-size: 24px;
+  padding-left:45px;
+  padding-top:50px;
+}
 
-    background-color: rgb(85, 33, 85);
-    border-radius: 50%;
-    font-size: 80px;
-    height:130px;
-    margin:20px;
-    margin-left:40px;
-    width:130px;
-  }
+#h1 {
 
-  #footer {
+  font-family: 'Calligraffitti', cursive;
+  padding-bottom:25px;
+  padding-top:35px;
+  text-align: center;
 
-    padding-left:20px;
-  }
-
-  .form-group {
-
-    font-size: 24px;
-    padding-left:45px;
-    padding-top:50px;
-  }
-
-  #h1 {
-
-    font-family: 'Calligraffitti', cursive;
-    padding-bottom:25px;
-    padding-top:35px;
-    text-align: center;
-
-  }
+}
 
 
-  #heading {
-  
-    font-family: 'Oswald', sans-serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Poor Story', cursive;
-    font-family: 'Aleo', serif;
-    padding-bottom:20px;
-    padding-top:40px;
-    text-align: center;
-  }
-  
-  /* .jumbotron {
-  
-    margin: auto;
-    margin-bottom: 20px;
-    width:80%;
-  } */
+#heading {
 
-  #links {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Poor Story', cursive;
+  font-family: 'Aleo', serif;
+  padding-bottom:20px;
+  padding-top:40px;
+  text-align: center;
+}
 
-    text-align: center;
-  }
-  
-  #para1 {
-  
-    text-align: center;
-  }
-  
-  #row1 {
-  
-    align-content: center;
-  }
+/* .jumbotron {
 
-  
+  margin: auto;
+  margin-bottom: 20px;
+  width:80%;
+} */
+
+#links {
+
+  text-align: center;
+}
+
+#para1 {
+
+  text-align: center;
+}
+
+#row1 {
+
+  align-content: center;
+}
