@@ -47,4 +47,8 @@ module.exports = function(app) {
   app.get("wink", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/page index/wink.html"));
   });
+
+  app.get("/diary", function(req,res) {
+    res.sendFile(path.join(__dirname, "../public/diary.html"));
+  })
 };

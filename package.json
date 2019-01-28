@@ -10,7 +10,6 @@
     "mysql": "^2.16.0",
     "mysql2": "^1.6.4",
     "sequelize": "^4.42.0"
-
   },
   "devDependencies": {},
   "scripts": {
@@ -21,9 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/Senecacherry/emojidiary1.git"
   },
-
   "keywords": [],
-
   "author": "",
   "license": "ISC",
   "bugs": {
