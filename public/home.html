@@ -1,3 +1,6 @@
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -5,7 +8,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="google-signin-client_id" content="651480339498-uvbj93oockffjgg900drtuv1tiabarej.apps.googleusercontent.com">
+  <meta name="google-signin-client_id" content="651480339498-te4brvnjjs85338leb2pj0cba0ougn1b.apps.googleusercontent.com"> 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
@@ -54,7 +57,7 @@
     </div>
   </div>
   <!-- <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark">button</div> -->
-  <div id="my-signin2"></div>
+  <!-- <div id="my-signin2"></div>
   <script>
 
     
@@ -93,7 +96,21 @@
         'onfailure': onFailure
       });
     }
-  </script>
+  </script> -->
+</script>
+
+<button id="sign-in-or-out-button"
+        style="margin-left: 25px">Sign In/Authorize</button>
+<button id="revoke-access-button"
+        style="display: none; margin-left: 25px">Revoke access</button>
+
+<div id="auth-status" style="display: inline; padding-left: 25px"></div><hr>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script async defer src="https://apis.google.com/js/api.js" 
+        onload="this.onload=function(){};handleClientLoad()" 
+        onreadystatechange="if (this.readyState === 'complete') this.onload()">
+</script>
 
   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -103,6 +120,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
