@@ -331,7 +331,7 @@
     "feeling_name":"Sorry",
     "feeling_emoji":"&#x1F630",
     "feeling_color":"#FF4500",
-    "feeling_def": "feeling regret or distress, especially through sympathy with someone else.",
+    "feeling_def": "feeling regret or distress, especially through sympathy with someone else",
     "feeling_value":401
   },
   {
@@ -556,7 +556,7 @@
     "feeling_name":"Rejected",
     "feeling_emoji":"&#x274C",
     "feeling_color":"#FFFF99",
-    "feeling_def": "feeling dismissed as inadequate, inappropriate, or not preferred.",
+    "feeling_def": "feeling dismissed as inadequate, inappropriate, or not preferred",
     "feeling_value":602
   },
   {
