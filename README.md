@@ -1,26 +1,34 @@
-# emojidiary1
+# EmojiDiary
 
-Authorization Todo: (as per https://www.youtube.com/watch?v=gYjHDMPrkWU):
+What are you feeling? Emoji Diary can help you verbalize it. Select emoji that represent your mood. The app will give you words that match. If you like, you can log in and create a diary of your feelings. You can save daily "emotional snapshots" along with your comments.
 
-Create a new user in the database: 
-    1. create a form within a view
-    2. create routes that will process the forms post request
-    3. create a databse connection using .env file
-    4. grab form input and insert into the databse
-    5. add an express-validation package (passport or something similar)
-    6. validate user inpute on backend
-    7. validate user inpute on frontend (why in this order?)
-    8. hash (or other method) users password
-    9. store user in db
+##[Try it!](https://protected-shore-68318.herokuapp.com/)
 
-login user (update user session, return auth cookie)
-    1. install passport
-    2. congif passport with chosen strategy
+For this project, we created a custom API drawn from the "Feeling Wheel", a tool used by counsellors and therapists to help clients get in touch with their feelings. We connected each word on the wheel with emoji.
 
-create login page
+Pick three emoji. Get vocabulary. Use your words.
 
-create logout button
+This is a project of the University of Denver Women's Coding Boot Camp, 2018-2019.
 
+###Project Team:
+Seneca Cherry
+Olivia Fontanese
+Lisa Jones
+Selina Maes
+
+###Project Advisors:
+Lindsay Chapin
+Sarah Cullen
+Jacqueline Glover
+Kelly Wenzel
+
+###Technology:
+Sequelize
+jQuery
+JavaScript
+Chart.js
+Google Auth
+HTML
 
 
 
