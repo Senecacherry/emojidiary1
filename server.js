@@ -11,7 +11,6 @@ var mysql = require("mysql")
 // Requiring passport as we've configured it
 // var passport = require("./config/passport");
 var cors = require("cors");
-
 // Sets up the Express App
 // =============================================================
 var app = express();
