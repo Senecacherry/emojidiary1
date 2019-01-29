@@ -8,6 +8,7 @@ var express = require("express");
 var session = require("express-session");
 var sequelize = require("sequelize");
 var mysql = require("mysql")
+require('dotenv').config()
 // Requiring passport as we've configured it
 // var passport = require("./config/passport");
 var cors = require("cors");
