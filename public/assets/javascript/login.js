@@ -1,4 +1,4 @@
-require("dotenv").config();
+
   var GoogleAuth;
   var SCOPE = 'https://www.googleapis.com/auth/drive.metadata.readonly';
   function handleClientLoad() {
@@ -16,9 +16,9 @@ require("dotenv").config();
     // Get API key and client ID from API Console.
     // 'scope' field specifies space-delimited list of access scopes.
     gapi.client.init({
-        'apiKey': process.env.CLIENT_SECRET,
+        'apiKey': "V5ovw5YHPChzLj07nS04XKakT",
         'discoveryDocs': [discoveryUrl],
-        'clientId': process.env.CLIENT_ID,
+        'clientId': "651480339498-te4brvnjjs85338leb2pj0cba0ougn1b.apps.googleusercontent.com",
         'scope': SCOPE
     }).then(function () {
       GoogleAuth = gapi.auth2.getAuthInstance();
