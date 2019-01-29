@@ -6,7 +6,7 @@ What are you feeling? Emoji Diary can help you verbalize it. Select emoji that r
 
 For this project, we created a custom API drawn from the "Feeling Wheel", a tool used by counsellors and therapists to help clients get in touch with their feelings. We connected each word on the wheel with emoji.
 
-Pick three emoji. Get related vocabulary. Use your words.
+Pick three emoji. Get vocabulary. Use your words.
 
 This is a project of the University of Denver Women's Coding Boot Camp, 2018-2019.
 
